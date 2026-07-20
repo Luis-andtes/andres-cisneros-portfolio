@@ -4,7 +4,7 @@
       title: "Luis Andrés Cisneros | Economics & Investment Research",
       description: "Personal portfolio of Luis Andrés Cisneros Berroterán — Economics student at EAFIT, Ecopetrol Scholar and value investor from Colombia.",
       skip: "Skip to content",
-      nav: ["Profile", "Selected work", "Journey", "Approach", "Contact"],
+      nav: ["Profile", "Selected work", "Journey", "Approach", "Certifications", "Contact"],
       menu: "Menu",
       eyebrow: "Economics <span>•</span> Investments <span>•</span> Financial analysis",
       hero: "I turn ambition into <em>disciplined financial thinking.</em>",
@@ -34,17 +34,16 @@
       workKicker: "Ideas made tangible",
       workTitle: "Work that shows how I think.",
       workIntro: "I use projects to turn financial curiosity into repeatable research, communication and decision-making systems.",
-      workTypes: ["Founder · Investment research · Ongoing", "Analytical system", "Financial education", "Community · Content", "Software venture · Current", "SENA · Tecnoparque Arauca"],
-      workNames: ["Cisneros Fund", "Value Investing Screener", "12-module Investing Course", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
+      workTypes: ["Founder & portfolio manager · Active", "Course designer & seminar facilitator", "Co-founder · Financial education", "Software venture · Current", "SENA · Tecnoparque Arauca"],
+      workNames: ["Cisneros Fund", "12-module Investment Course & Seminar", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
       workCopy: [
-        "A private investment-research initiative built around long-term ownership, disciplined documentation and clear portfolio communication.",
-        "A repeatable company-screening framework that connects business quality, ROIC, free cash flow, competitive advantage, valuation and risk.",
-        "A practical curriculum that moves from healthy personal finances to understanding stocks, ownership, valuation and investor behavior.",
-        "A financial-learning community co-founded to translate market ideas into useful, accessible content for emerging investors.",
+        "An informal investment fund serving real clients and managing approximately COP 50 million. I lead portfolio construction, research, reporting and client communication.",
+        "I designed the complete course and delivered it as a seminar for a group of young people in Arauca, covering personal finance, investing, stocks, valuation and investor behavior.",
+        "A financial-education community I co-founded to turn market analysis and practical money topics into useful, accessible content for emerging investors.",
         "A lean software company where I serve as Founder, CEO & CFO, directing financial planning, strategic priorities and business development.",
         "An AI-powered web assistant specialized in Colombian finance, investments and tax topics, developed with a React interface and FastAPI backend."
       ],
-      workTags: ["Equity research", "Portfolio reporting", "Core–satellite framework", "Fundamentals", "Scoring logic", "Decision discipline", "Curriculum design", "Value investing", "Clear communication", "Research", "Content strategy", "Community building", "Executive leadership", "Financial direction", "Software strategy", "AI product", "React + FastAPI", "Financial education"],
+      workTags: ["≈ COP 50M managed", "Real client portfolios", "Research & reporting", "Course design", "Seminar facilitation", "Youth financial education", "Co-founder", "Research", "Content strategy", "Executive leadership", "Financial direction", "Software strategy", "AI product", "React + FastAPI", "Financial education"],
       linkedIn: "See my complete experience on LinkedIn <span aria-hidden=\"true\">↗</span>",
       journeyKicker: "A compounding trajectory",
       journeyTitle: "Built early. Built deliberately.",
@@ -74,6 +73,11 @@
       recognitionTitle: "Signals of discipline.",
       recognitionNames: ["ICFES score", "Department ranking", "Ecopetrol Scholarship", "Student leadership"],
       recognitionCopy: ["Best score in the municipality of Arauca", "Second-highest score across Arauca", "Selected for the Bachilleres Ecopetrol program", "Student Representative at I.E. Técnico Cristo Rey"],
+      certificationKicker: "Selected certifications",
+      certificationTitle: "Credentials that sharpen the practice.",
+      certificationIntro: "Focused training across personal investment analysis, artificial intelligence in finance and company fundamentals.",
+      certificationMeta: ["Fundación Carlos Slim · Dec 2025", "Platzi · Dec 2025", "Platzi · Dec 2025"],
+      certificationCopy: ["Credential in personal investment analysis, financial planning and informed decision-making.", "Applied AI concepts and tools for financial analysis and workflows.", "Company fundamentals, financial statements, intrinsic value and investment opportunities."],
       contactLabel: "Let's connect",
       contactKicker: "The next chapter",
       contactTitle: "Looking for someone with <em>range, discipline and something to prove?</em>",
@@ -94,7 +98,7 @@
       title: "Luis Andrés Cisneros | Economía e Investigación de Inversiones",
       description: "Portafolio personal de Luis Andrés Cisneros Berroterán — estudiante de Economía en EAFIT, becario de Ecopetrol e inversionista de valor colombiano.",
       skip: "Ir al contenido",
-      nav: ["Perfil", "Trabajo", "Trayectoria", "Enfoque", "Contacto"],
+      nav: ["Perfil", "Trabajo", "Trayectoria", "Enfoque", "Certificaciones", "Contacto"],
       menu: "Menú",
       eyebrow: "Economía <span>•</span> Inversiones <span>•</span> Análisis financiero",
       hero: "Convierto la ambición en <em>pensamiento financiero disciplinado.</em>",
@@ -124,17 +128,16 @@
       workKicker: "Ideas convertidas en resultados",
       workTitle: "Trabajo que demuestra cómo pienso.",
       workIntro: "Uso proyectos para convertir la curiosidad financiera en investigación repetible, comunicación clara y sistemas de decisión.",
-      workTypes: ["Fundador · Investigación de inversiones · En curso", "Sistema analítico", "Educación financiera", "Comunidad · Contenido", "Empresa de software · Actual", "SENA · Tecnoparque Arauca"],
-      workNames: ["Cisneros Fund", "Screener de Value Investing", "Curso de Inversión de 12 módulos", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
+      workTypes: ["Fundador y gestor de portafolio · Activo", "Diseñador del curso y facilitador del seminario", "Cofundador · Educación financiera", "Empresa de software · Actual", "SENA · Tecnoparque Arauca"],
+      workNames: ["Cisneros Fund", "Curso de Inversión de 12 módulos y Seminario", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
       workCopy: [
-        "Una iniciativa privada de investigación de inversiones basada en la propiedad de largo plazo, la documentación disciplinada y una comunicación clara del portafolio.",
-        "Un marco repetible para analizar compañías que conecta calidad del negocio, ROIC, flujo de caja libre, ventajas competitivas, valoración y riesgo.",
-        "Un programa práctico que avanza desde unas finanzas personales sanas hasta la comprensión de acciones, propiedad, valoración y comportamiento del inversionista.",
-        "Una comunidad de aprendizaje financiero cofundada para convertir ideas del mercado en contenido útil y accesible para nuevos inversionistas.",
+        "Un fondo de inversión informal con clientes reales y aproximadamente COP 50 millones bajo gestión. Lidero la construcción del portafolio, la investigación, los reportes y la relación con los clientes.",
+        "Diseñé el curso completo y lo dicté como seminario para un grupo de jóvenes en Arauca, abordando finanzas personales, inversión, acciones, valoración y comportamiento del inversionista.",
+        "Una comunidad de educación financiera que cofundé para convertir el análisis de mercado y temas prácticos de dinero en contenido útil y accesible para nuevos inversionistas.",
         "Una empresa pequeña de software en la que actúo como fundador, CEO y CFO, dirigiendo la planeación financiera, las prioridades estratégicas y el desarrollo del negocio.",
         "Un asistente web impulsado por IA, especializado en finanzas, inversiones e impuestos colombianos, desarrollado con una interfaz en React y un backend en FastAPI."
       ],
-      workTags: ["Análisis de acciones", "Reportes de portafolio", "Marco core–satellite", "Fundamentales", "Lógica de puntuación", "Disciplina de decisión", "Diseño curricular", "Value investing", "Comunicación clara", "Investigación", "Estrategia de contenido", "Construcción de comunidad", "Liderazgo ejecutivo", "Dirección financiera", "Estrategia de software", "Producto de IA", "React + FastAPI", "Educación financiera"],
+      workTags: ["≈ COP 50M administrados", "Portafolios de clientes reales", "Investigación y reportes", "Diseño del curso", "Facilitación de seminario", "Educación financiera juvenil", "Cofundador", "Investigación", "Estrategia de contenido", "Liderazgo ejecutivo", "Dirección financiera", "Estrategia de software", "Producto de IA", "React + FastAPI", "Educación financiera"],
       linkedIn: "Ver mi experiencia completa en LinkedIn <span aria-hidden=\"true\">↗</span>",
       journeyKicker: "Una trayectoria que se capitaliza",
       journeyTitle: "Comencé temprano. Avanzo con intención.",
@@ -164,6 +167,11 @@
       recognitionTitle: "Señales de disciplina.",
       recognitionNames: ["Puntaje ICFES", "Posición departamental", "Beca Ecopetrol", "Liderazgo estudiantil"],
       recognitionCopy: ["Mejor puntaje del municipio de Arauca", "Segundo puntaje más alto de Arauca", "Seleccionado para Bachilleres Ecopetrol", "Personero estudiantil de la I.E. Técnico Cristo Rey"],
+      certificationKicker: "Certificaciones seleccionadas",
+      certificationTitle: "Formación que fortalece la práctica.",
+      certificationIntro: "Formación enfocada en análisis de inversiones personales, inteligencia artificial aplicada a finanzas y fundamentos empresariales.",
+      certificationMeta: ["Fundación Carlos Slim · dic 2025", "Platzi · dic 2025", "Platzi · dic 2025"],
+      certificationCopy: ["Credencial en análisis de inversiones personales, planeación financiera y toma de decisiones informadas.", "Conceptos y herramientas de IA aplicados al análisis y a los flujos de trabajo financieros.", "Fundamentales empresariales, estados financieros, valor intrínseco y oportunidades de inversión."],
       contactLabel: "Conectemos",
       contactKicker: "El próximo capítulo",
       contactTitle: "¿Buscas a alguien con <em>versatilidad, disciplina y mucho por demostrar?</em>",
@@ -260,6 +268,11 @@
     setText(".recognition-section > h2", t.recognitionTitle);
     setTexts(".recognition-grid article > p", t.recognitionNames);
     setTexts(".recognition-grid article > span", t.recognitionCopy);
+    setText(".certifications-header .section-kicker", t.certificationKicker);
+    setText(".certifications-header h2", t.certificationTitle);
+    setText(".certifications-header > p:last-child", t.certificationIntro);
+    setTexts(".certificate-issuer", t.certificationMeta);
+    setTexts(".certificate-copy", t.certificationCopy);
     setText(".contact-label p", t.contactLabel);
     setText(".contact-main .section-kicker", t.contactKicker);
     setHtml(".contact-main h2", t.contactTitle);
