@@ -14,6 +14,8 @@
       thesisLabel: "Personal thesis",
       thesis: "“The edge is not predicting the next headline. It is understanding a business well enough to stay rational when the price moves.”",
       panelPrinciples: ["Evidence over noise", "Owner mindset", "Long-term focus"],
+      marketLabel: "Main fund assets",
+      marketNote: "Live or delayed market data",
       openTo: "Open to",
       interests: ["Mentorship", "Research collaborations", "Investment communities", "Early-career opportunities"],
       sectionLabels: ["Profile", "Selected work", "Journey"],
@@ -78,6 +80,7 @@
       certificationIntro: "Focused training across personal investment analysis, artificial intelligence in finance and company fundamentals.",
       certificationMeta: ["Fundación Carlos Slim · Dec 2025", "Platzi · Dec 2025", "Platzi · Dec 2025"],
       certificationCopy: ["Credential in personal investment analysis, financial planning and informed decision-making.", "Applied AI concepts and tools for financial analysis and workflows.", "Company fundamentals, financial statements, intrinsic value and investment opportunities."],
+      certificationButtons: ["View issuer", "View issuer", "View issuer"],
       contactLabel: "Let's connect",
       contactKicker: "The next chapter",
       contactTitle: "Looking for someone with <em>range, discipline and something to prove?</em>",
@@ -108,6 +111,8 @@
       thesisLabel: "Tesis personal",
       thesis: "“La ventaja no está en predecir el próximo titular. Está en comprender un negocio lo suficiente para mantener la racionalidad cuando cambia el precio.”",
       panelPrinciples: ["Evidencia sobre ruido", "Mentalidad de propietario", "Visión de largo plazo"],
+      marketLabel: "Principales activos de mi fondo de inversiones",
+      marketNote: "Datos en vivo o con retraso según el mercado",
       openTo: "Abierto a",
       interests: ["Mentorías", "Colaboraciones de investigación", "Comunidades de inversión", "Oportunidades de inicio profesional"],
       sectionLabels: ["Perfil", "Trabajo seleccionado", "Trayectoria"],
@@ -172,6 +177,7 @@
       certificationIntro: "Formación enfocada en análisis de inversiones personales, inteligencia artificial aplicada a finanzas y fundamentos empresariales.",
       certificationMeta: ["Fundación Carlos Slim · dic 2025", "Platzi · dic 2025", "Platzi · dic 2025"],
       certificationCopy: ["Credencial en análisis de inversiones personales, planeación financiera y toma de decisiones informadas.", "Conceptos y herramientas de IA aplicados al análisis y a los flujos de trabajo financieros.", "Fundamentales empresariales, estados financieros, valor intrínseco y oportunidades de inversión."],
+      certificationButtons: ["Ver en el emisor", "Ver en el emisor", "Ver en el emisor"],
       contactLabel: "Conectemos",
       contactKicker: "El próximo capítulo",
       contactTitle: "¿Buscas a alguien con <em>versatilidad, disciplina y mucho por demostrar?</em>",
@@ -235,6 +241,9 @@
     setText(".panel-topline span", t.thesisLabel);
     setText(".panel-quote", t.thesis);
     setTexts(".panel-principles span", t.panelPrinciples);
+    setText(".market-label strong", t.marketLabel);
+    setText(".market-label small", t.marketNote);
+    document.querySelector(".market-ticker")?.setAttribute("aria-label", t.marketLabel);
     setText(".opportunity-strip > span", t.openTo);
     setTexts(".opportunity-strip p", t.interests);
     setTexts(".section-index p", t.sectionLabels);
@@ -273,6 +282,7 @@
     setText(".certifications-header > p:last-child", t.certificationIntro);
     setTexts(".certificate-issuer", t.certificationMeta);
     setTexts(".certificate-copy", t.certificationCopy);
+    setTexts(".certificate-link-copy", t.certificationButtons);
     setText(".contact-label p", t.contactLabel);
     setText(".contact-main .section-kicker", t.contactKicker);
     setHtml(".contact-main h2", t.contactTitle);
