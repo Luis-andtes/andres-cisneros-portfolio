@@ -10,7 +10,7 @@ https://luis-andtes.github.io/andres-cisneros-portfolio/
 
 ## About
 
-Built as a lightweight, responsive static website with semantic HTML and CSS. No build step or external framework is required.
+Built as a lightweight, responsive bilingual static website with semantic HTML, CSS and JavaScript. Live or delayed market quotes are displayed through the TradingView ticker-tape widget; no private API key is stored in the repository.
 
 ## Disclaimer
 
