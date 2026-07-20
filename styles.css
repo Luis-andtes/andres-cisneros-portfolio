@@ -123,7 +123,7 @@ summary {
   display: grid;
   grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
   gap: clamp(32px, 4vw, 72px);
-  min-height: calc(100svh - 118px);
+  min-height: calc(100svh - 120px);
   padding: clamp(30px, 4.5vh, 48px) clamp(24px, 4vw, 72px) 34px;
 }
 
@@ -1125,7 +1125,7 @@ footer p {
   border: 1px solid var(--rule);
   background: rgba(242, 237, 223, 0.72);
   color: var(--muted);
-  font-size: 9px;
+  font-size: 9.5px;
   font-weight: 800;
   letter-spacing: 0.1em;
 }
@@ -1297,7 +1297,7 @@ footer p {
 .market-ticker {
   display: grid;
   grid-template-columns: minmax(210px, 250px) minmax(0, 1fr);
-  height: 42px;
+  height: 44px;
   overflow: hidden;
   border-bottom: 1px solid var(--rule);
   background: var(--paper);
@@ -1308,6 +1308,7 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
   padding: 0 clamp(16px, 2vw, 28px);
   border-right: 1px solid var(--rule);
   background: var(--paper-deep);
@@ -1320,6 +1321,8 @@ footer p {
   letter-spacing: 0.09em;
   line-height: 1.25;
   text-transform: uppercase;
+  white-space: nowrap;
+  transform: translateY(-1px);
 }
 
 .market-label small {
@@ -1330,8 +1333,8 @@ footer p {
 .tradingview-widget-container__widget {
   width: 100%;
   min-width: 0;
-  height: 42px;
-  min-height: 42px;
+  height: 44px;
+  min-height: 44px;
   overflow: hidden;
   background: var(--paper);
 }
