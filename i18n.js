@@ -1,0 +1,286 @@
+(() => {
+  const translations = {
+    en: {
+      title: "Luis Andrés Cisneros | Economics & Investment Research",
+      description: "Personal portfolio of Luis Andrés Cisneros Berroterán — Economics student at EAFIT, Ecopetrol Scholar and value investor from Colombia.",
+      skip: "Skip to content",
+      nav: ["Profile", "Selected work", "Journey", "Approach", "Contact"],
+      menu: "Menu",
+      eyebrow: "Economics <span>•</span> Investments <span>•</span> Financial analysis",
+      hero: "I turn ambition into <em>disciplined financial thinking.</em>",
+      intro: "I'm an Economics student at EAFIT, an Ecopetrol Scholar and a value investor from Arauca, Colombia. I build research, systems and clear investment narratives with one goal: becoming an exceptional capital allocator.",
+      actions: ["Explore my work <span aria-hidden=\"true\">↘</span>", "View LinkedIn <span aria-hidden=\"true\">↗</span>"],
+      proof: ["ICFES score", "Arauca department", "Investing since", "Economics"],
+      thesisLabel: "Personal thesis",
+      thesis: "“The edge is not predicting the next headline. It is understanding a business well enough to stay rational when the price moves.”",
+      panelPrinciples: ["Evidence over noise", "Owner mindset", "Long-term focus"],
+      openTo: "Open to",
+      interests: ["Mentorship", "Research collaborations", "Investment communities", "Early-career opportunities"],
+      sectionLabels: ["Profile", "Selected work", "Journey"],
+      profileKicker: "From Arauca to global finance",
+      profileTitle: "Ambition, made credible by evidence.",
+      profileStory: [
+        "I grew up in Arauca, where access to financial education is not something to take for granted. That made finance feel less like an abstract subject and more like a tool for widening opportunity.",
+        "My path has been built through scholarships, public leadership, self-directed research and an early conviction: capital allocation is one of the clearest ways to understand how businesses create value.",
+        "At EAFIT, I am formalizing that instinct with economics. Outside the classroom, I analyze companies, build decision frameworks, create financial education and document what I learn."
+      ],
+      strengthsTitle: ["Analytical rigor", "Ownership mindset", "Clear communication", "Technical fluency"],
+      strengthsCopy: [
+        "I decompose businesses into economics, incentives, cash flows and risk.",
+        "I take responsibility for the process, the assumptions and the outcome.",
+        "I turn complex financial ideas into structured, useful narratives.",
+        "I connect financial thinking with systems, data tools and digital products."
+      ],
+      workKicker: "Ideas made tangible",
+      workTitle: "Work that shows how I think.",
+      workIntro: "I use projects to turn financial curiosity into repeatable research, communication and decision-making systems.",
+      workTypes: ["Investment research · Ongoing", "Analytical system", "Financial education", "Community · Content"],
+      workNames: ["Cisneros Fund", "Value Investing Screener", "12-module Investing Course", "Perfil Agresivo"],
+      workCopy: [
+        "A private investment-research initiative built around long-term ownership, disciplined documentation and clear portfolio communication.",
+        "A repeatable company-screening framework that connects business quality, ROIC, free cash flow, competitive advantage, valuation and risk.",
+        "A practical curriculum that moves from healthy personal finances to understanding stocks, ownership, valuation and investor behavior.",
+        "A financial-learning community co-founded to translate market ideas into useful, accessible content for emerging investors."
+      ],
+      workTags: ["Equity research", "Portfolio reporting", "Core–satellite framework", "Fundamentals", "Scoring logic", "Decision discipline", "Curriculum design", "Value investing", "Clear communication", "Research", "Content strategy", "Community building"],
+      linkedIn: "See my complete experience on LinkedIn <span aria-hidden=\"true\">↗</span>",
+      journeyKicker: "A compounding trajectory",
+      journeyTitle: "Built early. Built deliberately.",
+      years: ["2026 — Present", "2025", "2023 — Present", "Technical foundation"],
+      journeyNames: ["BSc Economics · Universidad EAFIT", "Academic & student leadership", "Self-directed investor", "Teleinformation Systems · SENA"],
+      journeyCopy: [
+        "Beginning formal training in economics with the goal of building a global career in investment research, asset management and banking.",
+        "Earned a 412 ICFES score, ranked second in the department of Arauca and served as Student Representative at I.E. Técnico Cristo Rey.",
+        "Studying U.S.-listed companies through a value-investing lens, with written theses focused on business quality and long-term value creation.",
+        "Built a technical base in systems, logic, web development and data tools—skills I now apply to financial analysis and communication."
+      ],
+      journeyTags: ["Ecopetrol Scholar", "Leadership", "Equity research", "Technology"],
+      approachKicker: "My investment lens",
+      approachTitle: "Process before prediction.",
+      approachIntro: "I do not treat a stock as a ticker. I treat it as a fractional ownership interest in a real business—and build the analysis from there.",
+      principleTitles: ["Understand the business", "Test quality", "Value with humility", "Think like an owner"],
+      principleCopy: [
+        "Revenue engine, industry structure, incentives and the real sources of competitive advantage.",
+        "Returns on capital, cash conversion, balance-sheet resilience and management allocation decisions.",
+        "Scenario-based assumptions, a margin of safety and an explicit view of what could prove the thesis wrong.",
+        "Long horizons, low noise and continuous comparison between price, fundamentals and opportunity cost."
+      ],
+      toolkitLabel: "Working toolkit",
+      toolkit: ["Company analysis", "ROIC & cash flow", "Valuation", "Portfolio reporting", "Excel", "Power BI", "Financial writing"],
+      recognitionKicker: "Selected recognition",
+      recognitionTitle: "Signals of discipline.",
+      recognitionNames: ["ICFES score", "Department ranking", "Ecopetrol Scholarship", "Student leadership"],
+      recognitionCopy: ["Best score in the municipality of Arauca", "Second-highest score across Arauca", "Selected for the Bachilleres Ecopetrol program", "Student Representative at I.E. Técnico Cristo Rey"],
+      contactLabel: "Let's connect",
+      contactKicker: "The next chapter",
+      contactTitle: "Looking for someone with <em>range, discipline and something to prove?</em>",
+      contactCopy: "I am especially interested in conversations with investors, professors, research teams and finance professionals who value curiosity backed by serious work.",
+      contactButton: "Connect on LinkedIn <span aria-hidden=\"true\">↗</span>",
+      footerLocation: "Medellín, Colombia · Building toward global finance",
+      disclaimer: "Personal portfolio for educational and professional purposes. Nothing here is financial advice or an offer of investment services.",
+      aria: {
+        primary: "Primary navigation",
+        mobile: "Mobile navigation",
+        openMenu: "Open navigation",
+        credentials: "Selected credentials",
+        thesis: "Personal investment thesis",
+        interests: "Current interests"
+      }
+    },
+    es: {
+      title: "Luis Andrés Cisneros | Economía e Investigación de Inversiones",
+      description: "Portafolio personal de Luis Andrés Cisneros Berroterán — estudiante de Economía en EAFIT, becario de Ecopetrol e inversionista de valor colombiano.",
+      skip: "Ir al contenido",
+      nav: ["Perfil", "Trabajo", "Trayectoria", "Enfoque", "Contacto"],
+      menu: "Menú",
+      eyebrow: "Economía <span>•</span> Inversiones <span>•</span> Análisis financiero",
+      hero: "Convierto la ambición en <em>pensamiento financiero disciplinado.</em>",
+      intro: "Soy estudiante de Economía en EAFIT, becario de Ecopetrol e inversionista de valor de Arauca, Colombia. Construyo investigaciones, sistemas y tesis de inversión claras con un objetivo: convertirme en un asignador de capital excepcional.",
+      actions: ["Explora mi trabajo <span aria-hidden=\"true\">↘</span>", "Ver LinkedIn <span aria-hidden=\"true\">↗</span>"],
+      proof: ["Puntaje ICFES", "Departamento de Arauca", "Invirtiendo desde", "Economía"],
+      thesisLabel: "Tesis personal",
+      thesis: "“La ventaja no está en predecir el próximo titular. Está en comprender un negocio lo suficiente para mantener la racionalidad cuando cambia el precio.”",
+      panelPrinciples: ["Evidencia sobre ruido", "Mentalidad de propietario", "Visión de largo plazo"],
+      openTo: "Abierto a",
+      interests: ["Mentorías", "Colaboraciones de investigación", "Comunidades de inversión", "Oportunidades de inicio profesional"],
+      sectionLabels: ["Perfil", "Trabajo seleccionado", "Trayectoria"],
+      profileKicker: "De Arauca a las finanzas globales",
+      profileTitle: "Ambición respaldada por evidencia.",
+      profileStory: [
+        "Crecí en Arauca, donde el acceso a la educación financiera no puede darse por sentado. Eso hizo que las finanzas fueran para mí menos una materia abstracta y más una herramienta para ampliar oportunidades.",
+        "Mi camino se ha construido mediante becas, liderazgo público, investigación autodidacta y una convicción temprana: la asignación de capital es una de las formas más claras de comprender cómo crean valor las empresas.",
+        "En EAFIT estoy formalizando ese instinto con la economía. Fuera del aula analizo compañías, construyo marcos de decisión, creo educación financiera y documento lo que aprendo."
+      ],
+      strengthsTitle: ["Rigor analítico", "Mentalidad de propietario", "Comunicación clara", "Fluidez técnica"],
+      strengthsCopy: [
+        "Descompongo los negocios en economía, incentivos, flujos de caja y riesgos.",
+        "Asumo responsabilidad por el proceso, los supuestos y los resultados.",
+        "Convierto ideas financieras complejas en narrativas estructuradas y útiles.",
+        "Conecto el pensamiento financiero con sistemas, datos y productos digitales."
+      ],
+      workKicker: "Ideas convertidas en resultados",
+      workTitle: "Trabajo que demuestra cómo pienso.",
+      workIntro: "Uso proyectos para convertir la curiosidad financiera en investigación repetible, comunicación clara y sistemas de decisión.",
+      workTypes: ["Investigación de inversiones · En curso", "Sistema analítico", "Educación financiera", "Comunidad · Contenido"],
+      workNames: ["Cisneros Fund", "Screener de Value Investing", "Curso de Inversión de 12 módulos", "Perfil Agresivo"],
+      workCopy: [
+        "Una iniciativa privada de investigación de inversiones basada en la propiedad de largo plazo, la documentación disciplinada y una comunicación clara del portafolio.",
+        "Un marco repetible para analizar compañías que conecta calidad del negocio, ROIC, flujo de caja libre, ventajas competitivas, valoración y riesgo.",
+        "Un programa práctico que avanza desde unas finanzas personales sanas hasta la comprensión de acciones, propiedad, valoración y comportamiento del inversionista.",
+        "Una comunidad de aprendizaje financiero cofundada para convertir ideas del mercado en contenido útil y accesible para nuevos inversionistas."
+      ],
+      workTags: ["Análisis de acciones", "Reportes de portafolio", "Marco core–satellite", "Fundamentales", "Lógica de puntuación", "Disciplina de decisión", "Diseño curricular", "Value investing", "Comunicación clara", "Investigación", "Estrategia de contenido", "Construcción de comunidad"],
+      linkedIn: "Ver mi experiencia completa en LinkedIn <span aria-hidden=\"true\">↗</span>",
+      journeyKicker: "Una trayectoria que se capitaliza",
+      journeyTitle: "Comencé temprano. Avanzo con intención.",
+      years: ["2026 — Presente", "2025", "2023 — Presente", "Base técnica"],
+      journeyNames: ["Pregrado en Economía · Universidad EAFIT", "Liderazgo académico y estudiantil", "Inversionista autodidacta", "Sistemas Teleinformáticos · SENA"],
+      journeyCopy: [
+        "Inicio mi formación formal en economía con la meta de construir una carrera global en investigación de inversiones, gestión de activos y banca.",
+        "Obtuve 412 puntos en el ICFES, ocupé el segundo lugar del departamento de Arauca y ejercí como personero estudiantil en la I.E. Técnico Cristo Rey.",
+        "Estudio compañías que cotizan en Estados Unidos desde una perspectiva de value investing, con tesis escritas centradas en la calidad empresarial y la creación de valor de largo plazo.",
+        "Construí una base técnica en sistemas, lógica, desarrollo web y herramientas de datos que hoy aplico al análisis y la comunicación financiera."
+      ],
+      journeyTags: ["Becario Ecopetrol", "Liderazgo", "Análisis de acciones", "Tecnología"],
+      approachKicker: "Mi perspectiva de inversión",
+      approachTitle: "Proceso antes que predicción.",
+      approachIntro: "No trato una acción como un símbolo bursátil. La entiendo como una participación en un negocio real y construyo el análisis desde esa base.",
+      principleTitles: ["Comprender el negocio", "Comprobar la calidad", "Valorar con humildad", "Pensar como propietario"],
+      principleCopy: [
+        "Motor de ingresos, estructura de la industria, incentivos y fuentes reales de ventaja competitiva.",
+        "Retornos sobre el capital, conversión a caja, resiliencia financiera y decisiones de asignación de la administración.",
+        "Supuestos basados en escenarios, margen de seguridad y una visión explícita de aquello que podría invalidar la tesis.",
+        "Horizontes largos, poco ruido y comparación continua entre precio, fundamentales y costo de oportunidad."
+      ],
+      toolkitLabel: "Herramientas de trabajo",
+      toolkit: ["Análisis de compañías", "ROIC y flujo de caja", "Valoración", "Reportes de portafolio", "Excel", "Power BI", "Escritura financiera"],
+      recognitionKicker: "Reconocimientos seleccionados",
+      recognitionTitle: "Señales de disciplina.",
+      recognitionNames: ["Puntaje ICFES", "Posición departamental", "Beca Ecopetrol", "Liderazgo estudiantil"],
+      recognitionCopy: ["Mejor puntaje del municipio de Arauca", "Segundo puntaje más alto de Arauca", "Seleccionado para Bachilleres Ecopetrol", "Personero estudiantil de la I.E. Técnico Cristo Rey"],
+      contactLabel: "Conectemos",
+      contactKicker: "El próximo capítulo",
+      contactTitle: "¿Buscas a alguien con <em>versatilidad, disciplina y mucho por demostrar?</em>",
+      contactCopy: "Me interesan especialmente las conversaciones con inversionistas, profesores, equipos de investigación y profesionales financieros que valoren la curiosidad respaldada por trabajo serio.",
+      contactButton: "Conectar en LinkedIn <span aria-hidden=\"true\">↗</span>",
+      footerLocation: "Medellín, Colombia · Construyendo una carrera en finanzas globales",
+      disclaimer: "Portafolio personal con fines educativos y profesionales. Nada de lo publicado constituye asesoría financiera ni una oferta de servicios de inversión.",
+      aria: {
+        primary: "Navegación principal",
+        mobile: "Navegación móvil",
+        openMenu: "Abrir navegación",
+        credentials: "Credenciales seleccionadas",
+        thesis: "Tesis personal de inversión",
+        interests: "Intereses actuales"
+      }
+    }
+  };
+
+  const setText = (selector, value) => {
+    const node = document.querySelector(selector);
+    if (node) node.textContent = value;
+  };
+  const setHtml = (selector, value) => {
+    const node = document.querySelector(selector);
+    if (node) node.innerHTML = value;
+  };
+  const setTexts = (selector, values) => {
+    document.querySelectorAll(selector).forEach((node, index) => {
+      if (values[index] !== undefined) node.textContent = values[index];
+    });
+  };
+  const setHtmls = (selector, values) => {
+    document.querySelectorAll(selector).forEach((node, index) => {
+      if (values[index] !== undefined) node.innerHTML = values[index];
+    });
+  };
+
+  const switcher = document.createElement("div");
+  switcher.className = "language-switch";
+  switcher.setAttribute("role", "group");
+  switcher.setAttribute("aria-label", "Idioma / Language");
+  switcher.innerHTML = '<button type="button" data-lang="es" aria-pressed="false">ES</button><span aria-hidden="true">/</span><button type="button" data-lang="en" aria-pressed="false">EN</button>';
+  document.querySelector(".site-header").insertBefore(switcher, document.querySelector(".mobile-menu"));
+
+  function applyLanguage(lang) {
+    const t = translations[lang];
+    document.documentElement.lang = lang;
+    document.title = t.title;
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", t.description);
+
+    setText(".skip-link", t.skip);
+    setTexts(".desktop-nav a", t.nav);
+    setTexts(".mobile-menu nav a", t.nav);
+    setText(".mobile-menu summary", t.menu);
+    setHtml(".eyebrow", t.eyebrow);
+    setHtml(".hero h1", t.hero);
+    setText(".hero-intro", t.intro);
+    setHtmls(".hero-actions .button", t.actions);
+    setTexts(".proof span", t.proof);
+    setText(".panel-topline span", t.thesisLabel);
+    setText(".panel-quote", t.thesis);
+    setTexts(".panel-principles span", t.panelPrinciples);
+    setText(".opportunity-strip > span", t.openTo);
+    setTexts(".opportunity-strip p", t.interests);
+    setTexts(".section-index p", t.sectionLabels);
+    setText(".profile-main > .section-kicker", t.profileKicker);
+    setText(".profile-main > h2", t.profileTitle);
+    setTexts(".profile-story p", t.profileStory);
+    setTexts(".strength-grid h3", t.strengthsTitle);
+    setTexts(".strength-grid article > p", t.strengthsCopy);
+    setText(".section-heading-row .section-kicker", t.workKicker);
+    setText(".section-heading-row h2", t.workTitle);
+    setText(".section-heading-row > p", t.workIntro);
+    setTexts(".work-card-top p", t.workTypes);
+    setTexts(".work-card h3", t.workNames);
+    setTexts(".work-description", t.workCopy);
+    setTexts(".work-card li", t.workTags);
+    setHtml(".work-main > .text-link", t.linkedIn);
+    setText(".journey-main > .section-kicker", t.journeyKicker);
+    setText(".journey-main > h2", t.journeyTitle);
+    setTexts(".timeline-year", t.years);
+    setTexts(".timeline-copy h3", t.journeyNames);
+    setTexts(".timeline-copy p", t.journeyCopy);
+    setTexts(".timeline-tag", t.journeyTags);
+    setText(".approach-header .section-kicker", t.approachKicker);
+    setText(".approach-header h2", t.approachTitle);
+    setText(".approach-header > p", t.approachIntro);
+    setTexts(".principles-grid h3", t.principleTitles);
+    setTexts(".principles-grid article > p", t.principleCopy);
+    setText(".toolkit > p", t.toolkitLabel);
+    setTexts(".toolkit > div span", t.toolkit);
+    setText(".recognition-section > .section-kicker", t.recognitionKicker);
+    setText(".recognition-section > h2", t.recognitionTitle);
+    setTexts(".recognition-grid article > p", t.recognitionNames);
+    setTexts(".recognition-grid article > span", t.recognitionCopy);
+    setText(".contact-label p", t.contactLabel);
+    setText(".contact-main .section-kicker", t.contactKicker);
+    setHtml(".contact-main h2", t.contactTitle);
+    setText(".contact-main > p:not(.section-kicker)", t.contactCopy);
+    setHtml(".contact-main .contact-button", t.contactButton);
+    setText("footer > p:nth-of-type(1)", t.footerLocation);
+    setText("footer .disclaimer", t.disclaimer);
+
+    document.querySelector(".desktop-nav").setAttribute("aria-label", t.aria.primary);
+    document.querySelector(".mobile-menu nav").setAttribute("aria-label", t.aria.mobile);
+    document.querySelector(".mobile-menu summary").setAttribute("aria-label", t.aria.openMenu);
+    document.querySelector(".proof-grid").setAttribute("aria-label", t.aria.credentials);
+    document.querySelector(".hero-panel").setAttribute("aria-label", t.aria.thesis);
+    document.querySelector(".opportunity-strip").setAttribute("aria-label", t.aria.interests);
+
+    switcher.querySelectorAll("button").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+    });
+    localStorage.setItem("portfolio-language", lang);
+  }
+
+  switcher.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-lang]");
+    if (button) applyLanguage(button.dataset.lang);
+  });
+
+  const savedLanguage = localStorage.getItem("portfolio-language");
+  const initialLanguage = savedLanguage || (navigator.language.toLowerCase().startsWith("es") ? "es" : "en");
+  applyLanguage(initialLanguage);
+})();
