@@ -111,7 +111,7 @@
       thesisLabel: "Tesis personal",
       thesis: "“La ventaja no está en predecir el próximo titular. Está en comprender un negocio lo suficiente para mantener la racionalidad cuando cambia el precio.”",
       panelPrinciples: ["Evidencia sobre ruido", "Mentalidad de propietario", "Visión de largo plazo"],
-      marketLabel: "Principales activos de mi fondo de inversiones",
+      marketLabel: "Activos principales del fondo",
       marketNote: "Datos en vivo o con retraso según el mercado",
       openTo: "Abierto a",
       interests: ["Mentorías", "Colaboraciones de investigación", "Comunidades de inversión", "Oportunidades de inicio profesional"],
