@@ -65,7 +65,7 @@ const merged = new Map();
 for (const post of [...fresh, ...(current.posts || [])]) merged.set(post.id, post);
 const posts = [...merged.values()]
   .sort((a, b) => (BigInt(a.id) > BigInt(b.id) ? -1 : 1))
-  .slice(0, 9);
+  .slice(0, 6);
 
 const latestId = posts[0]?.id || current.latestId || null;
 const output = {
