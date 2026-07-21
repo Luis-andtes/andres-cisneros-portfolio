@@ -10,7 +10,16 @@ https://luis-andtes.github.io/andres-cisneros-portfolio/
 
 ## About
 
-Built as a lightweight, responsive bilingual static website with semantic HTML, CSS and JavaScript. Live or delayed market quotes are displayed through the TradingView ticker-tape widget; no private API key is stored in the repository.
+Built as a lightweight, responsive bilingual static website with semantic HTML, CSS and JavaScript. Live or delayed market quotes are displayed through the TradingView ticker-tape widget.
+
+The writing archive renders publications from `data/x-posts.json` as native text—never as embedded frames. A weekly GitHub Actions workflow retrieves new posts from the official X API and commits the refreshed archive. The API credential must be stored as the repository secret `X_BEARER_TOKEN`; no private key is committed to the site.
+
+## X API setup
+
+1. Create an app in the X Developer Console and generate its Bearer Token.
+2. In this repository, open **Settings → Secrets and variables → Actions → New repository secret**.
+3. Save the token with the exact name `X_BEARER_TOKEN`.
+4. Open **Actions → Sync X publications → Run workflow** for the first synchronization. Future synchronizations run every Monday.
 
 ## Disclaimer
 
