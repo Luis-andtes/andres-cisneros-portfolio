@@ -4,7 +4,7 @@
       title: "Luis Andrés Cisneros | Economics & Investment Research",
       description: "Personal portfolio of Luis Andrés Cisneros Berroterán — Economics student at EAFIT, Ecopetrol Scholar and value investor from Colombia.",
       skip: "Skip to content",
-      nav: ["Profile", "Selected work", "Journey", "Approach", "Certifications", "Contact"],
+      nav: ["Profile", "Selected work", "Journey", "Approach", "Writing", "Certifications", "Contact"],
       menu: "Menu",
       eyebrow: "Economics <span>•</span> Investments <span>•</span> Financial analysis",
       hero: "I turn ambition into <em>disciplined financial thinking.</em>",
@@ -75,6 +75,11 @@
       recognitionTitle: "Signals of discipline.",
       recognitionNames: ["National State Exam", "National scholarship", "Economics", "Student leadership"],
       recognitionCopy: ["Among Colombia’s 100 highest scores", "Bachilleres Ecopetrol scholar", "Scholarship-backed undergraduate training at EAFIT", "Student Representative at I.E. Técnico Cristo Rey"],
+      writingKicker: "Notes from X",
+      writingTitle: "Ideas worth developing.",
+      writingIntro: "A living archive of my writing on markets, investing, economics and the work of building with intention.",
+      writingProfile: "Follow @cisnerosandress <span aria-hidden=\"true\">↗</span>",
+      writingSync: "Updated weekly through the X API",
       certificationKicker: "Selected certifications",
       certificationTitle: "Credentials that sharpen the practice.",
       certificationIntro: "Focused training across personal investment analysis, artificial intelligence in finance and company fundamentals.",
@@ -101,7 +106,7 @@
       title: "Luis Andrés Cisneros | Economía e Investigación de Inversiones",
       description: "Portafolio personal de Luis Andrés Cisneros Berroterán — estudiante de Economía en EAFIT, becario de Ecopetrol e inversionista de valor colombiano.",
       skip: "Ir al contenido",
-      nav: ["Perfil", "Trabajo", "Trayectoria", "Enfoque", "Certificaciones", "Contacto"],
+      nav: ["Perfil", "Trabajo", "Trayectoria", "Enfoque", "Escritura", "Certificaciones", "Contacto"],
       menu: "Menú",
       eyebrow: "Economía <span>•</span> Inversiones <span>•</span> Análisis financiero",
       hero: "Convierto la ambición en <em>pensamiento financiero disciplinado.</em>",
@@ -172,6 +177,11 @@
       recognitionTitle: "Señales de disciplina.",
       recognitionNames: ["Prueba de Estado nacional", "Beca nacional", "Economía", "Liderazgo estudiantil"],
       recognitionCopy: ["Entre los 100 mejores puntajes de Colombia", "Becario del programa Bachilleres Ecopetrol", "Formación universitaria becada en EAFIT", "Personero estudiantil de la I.E. Técnico Cristo Rey"],
+      writingKicker: "Notas desde X",
+      writingTitle: "Ideas que vale la pena desarrollar.",
+      writingIntro: "Un archivo vivo de lo que escribo sobre mercados, inversión, economía y el trabajo de construir con intención.",
+      writingProfile: "Seguir a @cisnerosandress <span aria-hidden=\"true\">↗</span>",
+      writingSync: "Actualizado semanalmente mediante la API de X",
       certificationKicker: "Certificaciones seleccionadas",
       certificationTitle: "Formación que fortalece la práctica.",
       certificationIntro: "Formación enfocada en análisis de inversiones personales, inteligencia artificial aplicada a finanzas y fundamentos empresariales.",
@@ -277,6 +287,11 @@
     setText(".recognition-section > h2", t.recognitionTitle);
     setTexts(".recognition-grid article > p", t.recognitionNames);
     setTexts(".recognition-grid article > span", t.recognitionCopy);
+    setText(".writing-header .section-kicker", t.writingKicker);
+    setText(".writing-header h2", t.writingTitle);
+    setText(".writing-intro", t.writingIntro);
+    setHtml(".writing-profile-link", t.writingProfile);
+    setText(".writing-sync", t.writingSync);
     setText(".certifications-header .section-kicker", t.certificationKicker);
     setText(".certifications-header h2", t.certificationTitle);
     setText(".certifications-header > p:last-child", t.certificationIntro);
@@ -302,6 +317,7 @@
       button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
     });
     localStorage.setItem("portfolio-language", lang);
+    window.dispatchEvent(new CustomEvent("portfolio:languagechange", { detail: { lang } }));
   }
 
   switcher.addEventListener("click", (event) => {
