@@ -2,7 +2,7 @@
   "username": "cisnerosandress",
   "userId": "1642591289647439872",
   "latestId": "2062011993091883378",
-  "updatedAt": "2026-07-21T23:32:18.044Z",
+  "updatedAt": "2026-07-22T00:04:05.072Z",
   "posts": [
     {
       "id": "2062011993091883378",
@@ -10,20 +10,11 @@
       "text": "Como le ha ido a mis inversiones desde 2023, teniendo apenas 17 años y siendo un analista de inversiones personales certificado https://t.co/XOTjvvD4p5",
       "createdAt": "2026-06-03T03:22:24.000Z",
       "url": "https://x.com/cisnerosandress/status/2062011993091883378",
+      "conversationId": "2062011993091883378",
+      "referencedTweets": [],
+      "isReply": false,
       "metrics": {
         "likes": 0,
-        "reposts": 0,
-        "replies": 0
-      }
-    },
-    {
-      "id": "2023199538903982383",
-      "username": "cisnerosandress",
-      "text": "Mira el video en TikTok y apóyame https://t.co/g8FpVkxQIg",
-      "createdAt": "2026-02-16T00:55:33.000Z",
-      "url": "https://x.com/cisnerosandress/status/2023199538903982383",
-      "metrics": {
-        "likes": 1,
         "reposts": 0,
         "replies": 0
       }
@@ -34,6 +25,9 @@
       "text": "Quiero ROMPER el estigma que tienen de ARAUCA\n\nAyúdenme a llevar el nombre de Arauca hasta Singapur\n\nQuiero demostrar que nuestra tierra también lidera, innova y transforma. @Santibotero2026 https://t.co/CjgOQ4lGAq",
       "createdAt": "2026-02-16T00:49:00.000Z",
       "url": "https://x.com/cisnerosandress/status/2023197888353055182",
+      "conversationId": "2023197888353055182",
+      "referencedTweets": [],
+      "isReply": false,
       "metrics": {
         "likes": 1,
         "reposts": 1,
@@ -46,6 +40,9 @@
       "text": "¡Seguimos maxeandonos! 🎮📈\nNuevo certificado en análisis fundamental para invertir en bolsa.\nAprendo, invierto y comparto el proceso con otros jóvenes que quieren empezar bien su vida financiera. 🚀\n\n#Inversiones #EducaciónFinanciera #BolsaDeValores #AnálisisFundamental #platzi https://t.co/KpR5Bf2x6u",
       "createdAt": "2025-12-29T04:00:18.000Z",
       "url": "https://x.com/cisnerosandress/status/2005489024157573228",
+      "conversationId": "2005489024157573228",
+      "referencedTweets": [],
+      "isReply": false,
       "metrics": {
         "likes": 1,
         "reposts": 0,
@@ -58,6 +55,9 @@
       "text": "Hoy obtuve mi certificación como Analista de Inversiones Personales.\nNo es un logro para presumir, es una base para construir criterio y visión.\n\nEsto apenas empieza.\n\n#EducaciónFinanciera #Inversiones #JuventudColombiana https://t.co/D3L8zyaUdK",
       "createdAt": "2025-12-19T03:02:58.000Z",
       "url": "https://x.com/cisnerosandress/status/2001850717745864848",
+      "conversationId": "2001850717745864848",
+      "referencedTweets": [],
+      "isReply": false,
       "metrics": {
         "likes": 3,
         "reposts": 1,
@@ -65,15 +65,33 @@
       }
     },
     {
-      "id": "2001067730972057889",
+      "id": "2001067722440933715",
       "username": "cisnerosandress",
-      "text": "Conclusión:\nNo compras RAM.\nHaces una inversión forzada\npara que tu PC no se vuelva inútil.\n\nY si hubiéramos #invertido en ella, seguramente Warren Buffet nos felicitaría 😉\n\n#Tecnología #HumorTech #PCMasterRace #Inflación #Inversión",
-      "createdAt": "2025-12-16T23:11:39.000Z",
-      "url": "https://x.com/cisnerosandress/status/2001067730972057889",
+      "text": "La #RAM no es memoria.\nEs una materia prima de lujo.\n\nAnalicemos cómo habría sido “invertir” en RAM como si fuera $GOLD",
+      "createdAt": "2025-12-16T23:11:37.000Z",
+      "url": "https://x.com/cisnerosandress/status/2001067722440933715",
+      "conversationId": "2001067722440933715",
+      "referencedTweets": [],
+      "isReply": false,
       "metrics": {
-        "likes": 3,
+        "likes": 4,
         "reposts": 0,
-        "replies": 0
+        "replies": 1
+      }
+    },
+    {
+      "id": "1995178843678576926",
+      "username": "cisnerosandress",
+      "text": "@MartinezPRenson @JUANquenza\nSer personero no te hace #líder.\nLo que haces cuando nadie te está aplaudiendo, sí.\n\nEste año aprendí algo fuerte:\nEl #Liderazgo real no es un cargo.\nEs aguantar presión cuando todos están mirando.\n\nHay decisiones que fueron incómodas.",
+      "createdAt": "2025-11-30T17:11:19.000Z",
+      "url": "https://x.com/cisnerosandress/status/1995178843678576926",
+      "conversationId": "1995178843678576926",
+      "referencedTweets": [],
+      "isReply": false,
+      "metrics": {
+        "likes": 1,
+        "reposts": 1,
+        "replies": 1
       }
     }
   ]
