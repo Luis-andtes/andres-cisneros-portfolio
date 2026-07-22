@@ -202,7 +202,12 @@
       return response.json();
     })
     .then((payload) => {
-      posts = Array.isArray(payload.posts) ? payload.posts : [];
+      posts = Array.isArray(payload.posts)
+        ? payload.posts.filter((post) =>
+            post.isReply !== true &&
+            !(post.referencedTweets || []).some((reference) => reference.type === "replied_to")
+          )
+        : [];
       renderPosts();
     })
     .catch(() => {
