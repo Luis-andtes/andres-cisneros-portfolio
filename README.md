@@ -12,7 +12,7 @@ https://luis-andtes.github.io/andres-cisneros-portfolio/
 
 Built as a lightweight, responsive bilingual static website with semantic HTML, CSS and JavaScript. Live or delayed market quotes are displayed through the TradingView ticker-tape widget.
 
-The separate `blog.html` writing archive renders the six newest publications from `data/x-posts.json` as native editorial cards—never as embedded frames. The main portfolio only contains a visual gateway to that page. A weekly GitHub Actions workflow retrieves new posts from the official X API and commits the refreshed archive. The API credential must be stored as the repository secret `X_BEARER_TOKEN`; no private key is committed to the site.
+The separate `blog.html` writing archive renders the six newest standalone publications from `data/x-posts.json` as native editorial cards—never as embedded frames. Replies and thread continuations are excluded, while the main portfolio only contains a visual gateway to that page. A weekly GitHub Actions workflow retrieves new posts from the official X API and commits the refreshed archive. The API credential must be stored as the repository secret `X_BEARER_TOKEN`; no private key is committed to the site.
 
 ## X API setup
 
