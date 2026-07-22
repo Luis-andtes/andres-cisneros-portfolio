@@ -1,6 +1,11 @@
 name: Sync X publications
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/sync-x-posts.mjs
   schedule:
     - cron: "17 13 * * 1"
   workflow_dispatch:
