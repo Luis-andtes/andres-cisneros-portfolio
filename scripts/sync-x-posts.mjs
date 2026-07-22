@@ -4,6 +4,9 @@ import { dirname, resolve } from "node:path";
 const token = process.env.X_BEARER_TOKEN;
 const username = process.env.X_USERNAME || "cisnerosandress";
 const outputPath = resolve("data/x-posts.json");
+const postLimit = 6;
+const pageSize = 25;
+const pageLimit = 4;
 
 if (!token) {
   throw new Error("Missing X_BEARER_TOKEN. Add it as a GitHub Actions repository secret.");
@@ -41,31 +44,55 @@ if (!userId || current.username !== username) {
   if (!userId) throw new Error(`X user @${username} was not found.`);
 }
 
-const timeline = new URL(`https://api.x.com/2/users/${userId}/tweets`);
-timeline.searchParams.set("max_results", "10");
-timeline.searchParams.set("exclude", "replies,retweets");
-timeline.searchParams.set("tweet.fields", "created_at,entities,note_tweet,public_metrics");
-if (current.latestId) timeline.searchParams.set("since_id", current.latestId);
+const timelinePosts = [];
+let paginationToken = null;
 
-const payload = await request(timeline);
-const fresh = (payload.data || []).map((post) => ({
+for (let page = 0; page < pageLimit; page += 1) {
+  const timeline = new URL(`https://api.x.com/2/users/${userId}/tweets`);
+  timeline.searchParams.set("max_results", String(pageSize));
+  timeline.searchParams.set("exclude", "retweets");
+  timeline.searchParams.set(
+    "tweet.fields",
+    "created_at,entities,note_tweet,public_metrics,referenced_tweets,conversation_id"
+  );
+  if (paginationToken) timeline.searchParams.set("pagination_token", paginationToken);
+
+  const payload = await request(timeline);
+  timelinePosts.push(...(payload.data || []));
+
+  const rootCount = timelinePosts.filter((post) =>
+    !(post.referenced_tweets || []).some((reference) => reference.type === "replied_to")
+  ).length;
+
+  paginationToken = payload.meta?.next_token || null;
+  if (rootCount >= postLimit || !paginationToken) break;
+}
+
+const repliesIgnored = timelinePosts.filter((post) =>
+  (post.referenced_tweets || []).some((reference) => reference.type === "replied_to")
+).length;
+
+const posts = timelinePosts
+  .filter((post) =>
+    !(post.referenced_tweets || []).some((reference) => reference.type === "replied_to")
+  )
+  .map((post) => ({
   id: post.id,
   username,
   text: post.note_tweet?.text || post.text,
   createdAt: post.created_at,
   url: `https://x.com/${username}/status/${post.id}`,
+  conversationId: post.conversation_id || post.id,
+  referencedTweets: post.referenced_tweets || [],
+  isReply: false,
   metrics: {
     likes: post.public_metrics?.like_count || 0,
     reposts: post.public_metrics?.retweet_count || 0,
     replies: post.public_metrics?.reply_count || 0
   }
-}));
-
-const merged = new Map();
-for (const post of [...fresh, ...(current.posts || [])]) merged.set(post.id, post);
-const posts = [...merged.values()]
+  }))
   .sort((a, b) => (BigInt(a.id) > BigInt(b.id) ? -1 : 1))
-  .slice(0, 6);
+  .slice(0, postLimit);
 
 const latestId = posts[0]?.id || current.latestId || null;
 const output = {
@@ -78,4 +105,6 @@ const output = {
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(output, null, 2)}\n`, "utf8");
-console.log(`Saved ${posts.length} publication(s); ${fresh.length} new.`);
+console.log(
+  `Saved ${posts.length} root publication(s); ignored ${repliesIgnored} reply/continuation post(s).`
+);
