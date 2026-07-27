@@ -1,9 +1,39 @@
 {
   "username": "cisnerosandress",
   "userId": "1642591289647439872",
-  "latestId": "2062011993091883378",
-  "updatedAt": "2026-07-22T00:04:05.072Z",
+  "latestId": "2080151642792411603",
+  "updatedAt": "2026-07-27T15:51:23.234Z",
   "posts": [
+    {
+      "id": "2080151642792411603",
+      "username": "cisnerosandress",
+      "text": "Alphabet acaba de mostrar el verdadero debate de la IA: no es quién gasta más, sino quién convierte ese gasto en retornos.\n\nGoogle Cloud creció 82%, pero el capex trimestral llegó a US$44.900M y el flujo de caja libre fue -US$5.900M.\n\nLa próxima ventaja competitiva será el ROIC.",
+      "createdAt": "2026-07-23T04:42:53.000Z",
+      "url": "https://x.com/cisnerosandress/status/2080151642792411603",
+      "conversationId": "2080151642792411603",
+      "referencedTweets": [],
+      "isReply": false,
+      "metrics": {
+        "likes": 1,
+        "reposts": 1,
+        "replies": 0
+      }
+    },
+    {
+      "id": "2079795678390194554",
+      "username": "cisnerosandress",
+      "text": "De Arauca a Medellín comienza una nueva etapa. Inicio Economía en la Universidad EAFIT, convencido de que cada clase, proyecto y experiencia será un paso más hacia mi meta: convertirme en un gran asignador de capital y generar valor mediante decisiones de inversión inteligentes.",
+      "createdAt": "2026-07-22T05:08:25.000Z",
+      "url": "https://x.com/cisnerosandress/status/2079795678390194554",
+      "conversationId": "2079795678390194554",
+      "referencedTweets": [],
+      "isReply": false,
+      "metrics": {
+        "likes": 2,
+        "reposts": 1,
+        "replies": 0
+      }
+    },
     {
       "id": "2062011993091883378",
       "username": "cisnerosandress",
@@ -17,21 +47,6 @@
         "likes": 0,
         "reposts": 0,
         "replies": 0
-      }
-    },
-    {
-      "id": "2023197888353055182",
-      "username": "cisnerosandress",
-      "text": "Quiero ROMPER el estigma que tienen de ARAUCA\n\nAyúdenme a llevar el nombre de Arauca hasta Singapur\n\nQuiero demostrar que nuestra tierra también lidera, innova y transforma. @Santibotero2026 https://t.co/CjgOQ4lGAq",
-      "createdAt": "2026-02-16T00:49:00.000Z",
-      "url": "https://x.com/cisnerosandress/status/2023197888353055182",
-      "conversationId": "2023197888353055182",
-      "referencedTweets": [],
-      "isReply": false,
-      "metrics": {
-        "likes": 1,
-        "reposts": 1,
-        "replies": 1
       }
     },
     {
@@ -76,21 +91,6 @@
       "metrics": {
         "likes": 4,
         "reposts": 0,
-        "replies": 1
-      }
-    },
-    {
-      "id": "1995178843678576926",
-      "username": "cisnerosandress",
-      "text": "@MartinezPRenson @JUANquenza\nSer personero no te hace #líder.\nLo que haces cuando nadie te está aplaudiendo, sí.\n\nEste año aprendí algo fuerte:\nEl #Liderazgo real no es un cargo.\nEs aguantar presión cuando todos están mirando.\n\nHay decisiones que fueron incómodas.",
-      "createdAt": "2025-11-30T17:11:19.000Z",
-      "url": "https://x.com/cisnerosandress/status/1995178843678576926",
-      "conversationId": "1995178843678576926",
-      "referencedTweets": [],
-      "isReply": false,
-      "metrics": {
-        "likes": 1,
-        "reposts": 1,
         "replies": 1
       }
     }
