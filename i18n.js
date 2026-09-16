@@ -11,9 +11,7 @@
       intro: "I'm an Economics student at EAFIT, an Ecopetrol Scholar and a value investor from Arauca, Colombia. I build research, systems and clear investment narratives with one goal: becoming an exceptional capital allocator.",
       actions: ["Explore my work <span aria-hidden=\"true\">↘</span>", "View LinkedIn <span aria-hidden=\"true\">↗</span>"],
       proof: ["National State Exam", "National scholar", "Investing since", "Economics"],
-      thesisLabel: "Personal thesis",
-      thesis: "“The edge is not predicting the next headline. It is understanding a business well enough to stay rational when the price moves.”",
-      panelPrinciples: ["Evidence over noise", "Owner mindset", "Long-term focus"],
+      brief: {"label":"Profile at a glance","focusLabel":"Professional focus","focus":"Asset management & investment research","labels":["Practical experience","Research · EAFIT","Tools","Opportunities of interest"],"copy":["Founder of Cisneros Capital. Managing five client portfolios through long-term fundamental analysis.","Microcredit research in Economía y Desarrollo; member of Economía y Finanzas de las Organizaciones.","Excel · Python · Power BI","Internships and entry-level roles in investment research, asset management and business valuation."],"actions":["View experience","View LinkedIn"]},
       marketLabel: "Main assets of my fund",
       marketNote: "Live or delayed market data",
       openTo: "Open to",
@@ -37,7 +35,7 @@
       workTitle: "Work that shows how I think.",
       workIntro: "I use projects to turn financial curiosity into repeatable research, communication and decision-making systems.",
       workTypes: ["Founder & portfolio manager · Active", "Course designer & seminar facilitator", "Co-founder · Financial education", "Software venture · Current", "SENA · Tecnoparque Arauca"],
-      workNames: ["Cisneros Fund", "12-module Investment Course & Seminar", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
+      workNames: ["Cisneros Capital", "12-module Investment Course & Seminar", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
       workCopy: [
         "An informal investment fund serving real clients and managing approximately COP 50 million. I lead portfolio construction, research, reporting and client communication.",
         "I designed the complete course and delivered it as a seminar for a group of young people in Arauca, covering personal finance, investing, stocks, valuation and investor behavior.",
@@ -99,7 +97,6 @@
         mobile: "Mobile navigation",
         openMenu: "Open navigation",
         credentials: "Selected credentials",
-        thesis: "Personal investment thesis",
         interests: "Current interests"
       }
     },
@@ -114,9 +111,7 @@
       intro: "Soy estudiante de Economía en EAFIT, becario de Ecopetrol e inversionista de valor de Arauca, Colombia. Construyo investigaciones, sistemas y tesis de inversión claras con un objetivo: convertirme en un asignador de capital excepcional.",
       actions: ["Explora mi trabajo <span aria-hidden=\"true\">↘</span>", "Ver LinkedIn <span aria-hidden=\"true\">↗</span>"],
       proof: ["Prueba de Estado nacional", "Becario nacional", "Invirtiendo desde", "Economía"],
-      thesisLabel: "Tesis personal",
-      thesis: "“La ventaja no está en predecir el próximo titular. Está en comprender un negocio lo suficiente para mantener la racionalidad cuando cambia el precio.”",
-      panelPrinciples: ["Evidencia sobre ruido", "Mentalidad de propietario", "Visión de largo plazo"],
+      brief: {"label":"Perfil en breve","focusLabel":"Enfoque profesional","focus":"Gestión de activos y análisis de inversiones","labels":["Experiencia práctica","Investigación · EAFIT","Herramientas","Oportunidades de interés"],"copy":["Fundador de Cisneros Capital. Gestión de cinco carteras de clientes con enfoque de largo plazo y análisis fundamental.","Investigación en microcréditos en Economía y Desarrollo; miembro de Economía y Finanzas de las Organizaciones.","Excel · Python · Power BI","Pasantías y roles iniciales en análisis de inversiones, gestión de activos y valoración de empresas."],"actions":["Ver experiencia","Ver LinkedIn"]},
       marketLabel: "Activos principales de mi fondo",
       marketNote: "Datos en vivo o con retraso según el mercado",
       openTo: "Abierto a",
@@ -140,7 +135,7 @@
       workTitle: "Trabajo que demuestra cómo pienso.",
       workIntro: "Uso proyectos para convertir la curiosidad financiera en investigación repetible, comunicación clara y sistemas de decisión.",
       workTypes: ["Fundador y gestor de portafolio · Activo", "Diseñador del curso y facilitador del seminario", "Cofundador · Educación financiera", "Empresa de software · Actual", "SENA · Tecnoparque Arauca"],
-      workNames: ["Cisneros Fund", "Curso de Inversión de 12 módulos y Seminario", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
+      workNames: ["Cisneros Capital", "Curso de Inversión de 12 módulos y Seminario", "Perfil Agresivo", "Kaney AI & Software", "EDALU"],
       workCopy: [
         "Un fondo de inversión informal con clientes reales y aproximadamente COP 50 millones bajo gestión. Lidero la construcción del portafolio, la investigación, los reportes y la relación con los clientes.",
         "Diseñé el curso completo y lo dicté como seminario para un grupo de jóvenes en Arauca, abordando finanzas personales, inversión, acciones, valoración y comportamiento del inversionista.",
@@ -202,7 +197,6 @@
         mobile: "Navegación móvil",
         openMenu: "Abrir navegación",
         credentials: "Credenciales seleccionadas",
-        thesis: "Tesis personal de inversión",
         interests: "Intereses actuales"
       }
     }
@@ -250,9 +244,12 @@
     setText(".hero-intro", t.intro);
     setHtmls(".hero-actions .button", t.actions);
     setTexts(".proof span", t.proof);
-    setText(".panel-topline span", t.thesisLabel);
-    setText(".panel-quote", t.thesis);
-    setTexts(".panel-principles span", t.panelPrinciples);
+    setText(".brief-kicker", t.brief.label);
+    setText(".brief-focus-label", t.brief.focusLabel);
+    setText(".brief-focus", t.brief.focus);
+    setTexts(".brief-row dt", t.brief.labels);
+    setTexts(".brief-row dd", t.brief.copy);
+    setTexts(".brief-actions a > span:first-child", t.brief.actions);
     setText(".market-label strong", t.marketLabel);
     setText(".market-label small", t.marketNote);
     document.querySelector(".market-ticker")?.setAttribute("aria-label", t.marketLabel);
@@ -314,7 +311,6 @@
     document.querySelector(".mobile-menu nav").setAttribute("aria-label", t.aria.mobile);
     document.querySelector(".mobile-menu summary").setAttribute("aria-label", t.aria.openMenu);
     document.querySelector(".proof-grid").setAttribute("aria-label", t.aria.credentials);
-    document.querySelector(".hero-panel").setAttribute("aria-label", t.aria.thesis);
     document.querySelector(".opportunity-strip").setAttribute("aria-label", t.aria.interests);
 
     switcher.querySelectorAll("button").forEach((button) => {
