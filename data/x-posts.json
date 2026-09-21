@@ -2,7 +2,7 @@
   "username": "cisnerosandress",
   "userId": "1642591289647439872",
   "latestId": "2080151642792411603",
-  "updatedAt": "2026-09-14T18:39:26.533Z",
+  "updatedAt": "2026-09-21T18:44:29.203Z",
   "posts": [
     {
       "id": "2080151642792411603",
@@ -50,21 +50,6 @@
       }
     },
     {
-      "id": "2023218657682207041",
-      "username": "cisnerosandress",
-      "text": "@Santibotero2026 Si la seleccionada de casanare es ella, llévenme a mi por Arauca y bailamos joropo en Singapur juntos, resaltamos la cultura llanera, Arauca x Casanare",
-      "createdAt": "2026-02-16T02:11:32.000Z",
-      "url": "https://x.com/cisnerosandress/status/2023218657682207041",
-      "conversationId": "2020610339059253459",
-      "referencedTweets": [],
-      "isReply": false,
-      "metrics": {
-        "likes": 1,
-        "reposts": 0,
-        "replies": 0
-      }
-    },
-    {
       "id": "2005489024157573228",
       "username": "cisnerosandress",
       "text": "¡Seguimos maxeandonos! 🎮📈\nNuevo certificado en análisis fundamental para invertir en bolsa.\nAprendo, invierto y comparto el proceso con otros jóvenes que quieren empezar bien su vida financiera. 🚀\n\n#Inversiones #EducaciónFinanciera #BolsaDeValores #AnálisisFundamental #platzi https://t.co/KpR5Bf2x6u",
@@ -92,6 +77,21 @@
         "likes": 3,
         "reposts": 1,
         "replies": 0
+      }
+    },
+    {
+      "id": "2001067722440933715",
+      "username": "cisnerosandress",
+      "text": "La #RAM no es memoria.\nEs una materia prima de lujo.\n\nAnalicemos cómo habría sido “invertir” en RAM como si fuera $GOLD",
+      "createdAt": "2025-12-16T23:11:37.000Z",
+      "url": "https://x.com/cisnerosandress/status/2001067722440933715",
+      "conversationId": "2001067722440933715",
+      "referencedTweets": [],
+      "isReply": false,
+      "metrics": {
+        "likes": 4,
+        "reposts": 0,
+        "replies": 1
       }
     }
   ]
